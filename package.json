@@ -1,0 +1,50 @@
+{
+  "name": "smartgrid",
+  "version": "1.0.0",
+  "description": "SmartGrid Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp default --dev",
+    "prod": "gulp build"
+  },
+  "author": "Oleg R",
+  "license": "ISC",
+  "browserslist": [
+    "last 2 years",
+    "> 1%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "browser-sync": "^2.27.9",
+    "core-js": "^3.21.1",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-changed": "^4.0.3",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-less": "^5.0.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-remove-empty-lines": "^0.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "smart-grid": "^2.1.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "normalize.css": "^8.0.1"
+  }
+}
