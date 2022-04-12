@@ -1,0 +1,12 @@
+{# Доп. переменные #}
+{% set title = "Главная" %}
+{% set description = "Краткое описание страницы" %}
+{% set keywords = "Ключевые слова" %}
+{% set canonical = "https://***.**/" %}
+{# Шаблон по умолчанию #}
+{% extends  "./layouts/default.njk" %}
+{# Блок контент #}
+{% block content %}
+{% include "./blocks/degubGrid.njk" %}
+{% include "./partials/header.njk" %}
+{% endblock %}

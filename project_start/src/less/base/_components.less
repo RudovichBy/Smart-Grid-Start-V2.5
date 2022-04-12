@@ -1,0 +1,87 @@
+// =================прогрес-бар===========================
+.progress-container {
+	width: 100%;
+	height: 2px;
+}
+
+
+.progress-bar {
+	height: 2px;
+	background: linear-gradient(to right, #f7a145, #fbc388);
+	width: 0%;
+}
+
+//=========================================================
+
+//==========================кнопка в вверх=================
+.pageup {
+	opacity: 0;
+	width: 43px;
+	height: 43px;
+	position: fixed;
+	bottom: 50px;
+	right: 5%;
+	z-index: 30;
+	cursor: pointer;
+	transition: 1s all;
+	fill: @accent-color;
+}
+
+//======================================================
+
+// ===================оснавная кнопка===================
+.button-reset() {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.btn() {
+	.button-reset;
+	background-color: inherit;
+	cursor: pointer;
+	margin-top: 20px;
+	text-decoration: none;
+	font-weight: 500;
+	position: relative;
+	color: @accent-color;
+	display: inline-block;
+	padding: 10px 25px;
+	border: 2px solid @accent-color;
+	transition: all 300ms ease;
+	box-shadow: 0px 4px 10px 2px rgba(black, 0.2);
+	z-index: 5;
+
+	&:before {
+		position: absolute;
+		content: '';
+		width: 0%;
+		height: 100%;
+		background: @accent-color;
+		top: 0;
+		left: auto;
+		right: 0;
+		z-index: -1;
+		transition: all 300ms ease;
+	}
+
+	&:hover {
+		color: white;
+		box-shadow: none;
+
+		&:before {
+			position: absolute;
+			content: '';
+			width: 100%;
+			height: 100%;
+			background: @accent-color;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: -1;
+		}
+	}
+}
