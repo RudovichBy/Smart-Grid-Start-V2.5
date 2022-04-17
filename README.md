@@ -56,3 +56,23 @@ Gulp-SmartFrid_Starter
 
 ### Вспомогательные
 
+-[browser-sync](https://browsersync.io/) - запуск веб-сервера и его перезагрузка в реальном времени при изменении файлов;
+-[gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps) - создание source maps для упрощения отладки кода;
+-[gulp-changed](https://www.npmjs.com/package/gulp-changed) - для отслеживания только измененных файлов;
+-[gulp-if](https://www.npmjs.com/package/gulp-if) - создание условия для оброботки тасков;
+-[del](https://www.npmjs.com/package/del) - для удоления файлов, папок;
+
+## [Smart Grid - сетка для web-сайтов](https://grid4web.ru/)
+
+Smart-grid препроцессорная сетка для web.
+
+Smart Grid просто предлагает быстрее сгенерировать код flexbox-сетки для тех ситуаций, где использование flexbox логичнее применения Grid Layout.
+
+[Документация](https://grid4web.ru/)
+
+#### Планы на развитие данной сборки:
+
+- возможна замена Nunjucks, так как функционал избыточен;
+- добавление тасков для работы с изображениями и шрифтами;
+- добавление возможности загружать файлы на FTP-сервер;
+- ...;
