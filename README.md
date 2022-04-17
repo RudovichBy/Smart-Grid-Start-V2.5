@@ -6,34 +6,29 @@
 
 ## Установка и запуск
 
-Установка:
+**Установка:**
 
 ~~~
 npm -i
 ~~~
 
-Варианты запуска:
+**Варианты запуска:**
 
-- Development
+- **Development**
 
 ~~~
 npx gulp --dev
 ~~~
 
-либо
-
 ~~~
 npm run dev
 ~~~
 
-- Production
+- **Production**
 
 ~~~
 npx gulp build
 ~~~
-
-либо
-
 ~~~
 npm run prod
 ~~~
