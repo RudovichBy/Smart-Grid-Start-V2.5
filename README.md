@@ -4,6 +4,40 @@
 
 **Smart-Grid-Start-V2.5** - среда запуска с Gulp 4,c **препроцессорами** (*Less*, *Scss*...), **clean-css, css-media-querie, nunjucks-render, html-beautify, Browsersync, Autoprefixer, webpack-stream, Babel, core-js**... .
 
+## Установка и запуск
+
+Установка:
+
+~~~
+npm -i
+~~~
+
+Варианты запуска:
+
+- Development
+
+~~~
+npx gulp --dev
+~~~
+
+либо
+
+~~~
+npm run dev
+~~~
+
+- Production
+
+~~~
+npx gulp build
+~~~
+
+либо
+
+~~~
+npm run prod
+~~~
+
 ## Структура проекта
 
 ~~~ pre
@@ -70,7 +104,7 @@ Smart Grid просто предлагает быстрее сгенериров
 
 [Документация](https://grid4web.ru/)
 
-#### Планы на развитие данной сборки:
+#### Планы на развитие данной сборки
 
 - возможна замена Nunjucks, так как функционал избыточен;
 - добавление тасков для работы с изображениями и шрифтами;
